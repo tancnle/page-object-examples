@@ -9,10 +9,12 @@ class SearchPage
   def search_for(search_query)
     self.search_field = search_query
     search
+    wait_until do
+      self.title.include? "Google Search"
+    end
   end
 
   def search_results
-    require 'ruby-debug'; debugger
     self.link_elements(:class => "l").map(&:text)
   end
 

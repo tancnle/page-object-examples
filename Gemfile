@@ -1,7 +1,9 @@
-source "http://rubygems.org"
+source 'http://rubygems.org'
 
+gem 'rspec'
 gem 'cucumber'
 gem 'selenium-webdriver'
 gem 'page-object'
 
-gem 'ruby-debug19', :require => 'ruby-debug'
+gem 'debugger'
+

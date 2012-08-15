@@ -8,7 +8,7 @@ When /^I search for "([^\"]*)"$/ do |search_query|
   end
 end
 
-Then /^I should see "([^\"]*)" in the search resutls$/ do |search_result|
+Then /^I should see "([^\"]*)" in the search results$/ do |search_result|
   on_page SearchPage do |page|
     page.search_results.should include(search_result)
   end
