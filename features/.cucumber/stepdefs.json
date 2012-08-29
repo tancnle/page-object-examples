@@ -4,12 +4,7 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/google_search_steps.rb:1",
     "steps": [
-      {
-        "name": "I am on Google search page",
-        "args": [
 
-        ]
-      }
     ]
   },
   {
@@ -17,15 +12,7 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/google_search_steps.rb:5",
     "steps": [
-      {
-        "name": "I search for \"whirlpool\"",
-        "args": [
-          {
-            "offset": 14,
-            "val": "whirlpool"
-          }
-        ]
-      }
+
     ]
   },
   {
@@ -33,13 +20,44 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/google_search_steps.rb:11",
     "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on realestate home page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/real_estate_search_steps.rb:1",
+    "steps": [
       {
-        "name": "I should see \"Whirlpool Broadband News\" in the search results",
+        "name": "I am on realestate home page",
         "args": [
-          {
-            "offset": 14,
-            "val": "Whirlpool Broadband News"
-          }
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I search properties with the following criteria:$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/real_estate_search_steps.rb:5",
+    "steps": [
+      {
+        "name": "I search properties with the following criteria:",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see some relevant properties$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/real_estate_search_steps.rb:9",
+    "steps": [
+      {
+        "name": "I should see some relevant properties",
+        "args": [
+
         ]
       }
     ]
