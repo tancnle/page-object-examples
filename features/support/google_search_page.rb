@@ -1,4 +1,4 @@
-class SearchPage
+class GoogleSearchPage
   include PageObject
 
   page_url "http://www.google.com.au"

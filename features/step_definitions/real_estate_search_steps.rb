@@ -7,7 +7,7 @@ When /^I search properties with the following criteria:$/ do |criteria_table|
 end
 
 Then /^I should see some relevant properties$/ do
-  on_page RealEstateHomePage do |page|
+  on_page RealEstateResultPage do |page|
     page.search_results.should have_at_least(1).item
   end
 end

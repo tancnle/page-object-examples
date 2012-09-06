@@ -8,18 +8,12 @@ class RealEstateHomePage
   button(:search_button, :id => "searchBtn")
 
   def search_using(search_criteria)
-    #puts search_criteria
-    #require 'ruby-debug'; debugger
     self.location = search_criteria.delete("location") if search_criteria[:location]
     search_criteria.each do |option, value|
       select_refinement option, value
     end
     search_button
     wait_until { self.text.include? "Results for properties for sale" }
-  end
-
-  def search_results
-    self.div_elements(:class => "vcard").map(&:text)
   end
 
   private
