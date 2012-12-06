@@ -7,5 +7,7 @@ gem 'cucumber'
 gem 'selenium-webdriver'
 gem 'page-object'
 
-gem 'debugger'
+group :development, :test do
+  gem 'debugger'
+end
 
