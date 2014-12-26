@@ -8,6 +8,6 @@ gem 'selenium-webdriver'
 gem 'page-object'
 
 group :development, :test do
-  gem 'debugger'
+  gem 'pry'
 end
 

@@ -8,7 +8,7 @@ Examples to write cucumber test using page-object gem
 
 ## Requirements
 
-- RVM (https://rvm.io/)
+- Chruby (https://github.com/postmodern/chruby)
 - Bundler
 
 ## Getting Started
@@ -24,7 +24,7 @@ Run bundler:
 Run cucumber features
 
     bundle exec rake
-    
+
 ## Dependencies
 
 - page-object
