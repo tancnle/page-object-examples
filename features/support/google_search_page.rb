@@ -15,7 +15,7 @@ class GoogleSearchPage
   end
 
   def search_results
-    self.link_elements(:class => "l").map(&:text)
+    self.link_elements(:css => '.r>a').map(&:text)
   end
 
 end

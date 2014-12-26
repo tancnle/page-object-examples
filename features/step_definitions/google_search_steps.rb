@@ -10,6 +10,6 @@ end
 
 Then /^I should see "([^\"]*)" in the search results$/ do |search_result|
   on_page GoogleSearchPage do |page|
-    page.search_results.should include(search_result)
+    expect(page.search_results).to include(search_result)
   end
 end
