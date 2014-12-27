@@ -8,6 +8,6 @@ end
 
 Then /^I should see some relevant properties$/ do
   on_page RealEstateResultPage do |page|
-    page.search_results.should have_at_least(1).item
+    expect(page.search_results).to have_at_least(1).items
   end
 end
