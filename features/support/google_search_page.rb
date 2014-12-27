@@ -10,7 +10,7 @@ class GoogleSearchPage
     self.search_field = search_query
     search
     wait_until(60, "Google search is so slooooooow!") do
-      self.title.include? "Google Search"
+      self.text[/About .* results \(.* seconds\)/]
     end
   end
 
