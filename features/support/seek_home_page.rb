@@ -13,11 +13,11 @@ class SeekHomePage
       self.send("#{criterion[:name]}=", criterion[:value])
     end
     seek_button
-    wait_until { self.text.include? "Refine your results" }
+    wait_until { self.text.include? "jobs matching your search criteria" }
   end
 
   def search_results
-    self.link_elements(:css => ".mod-searchresult-entry a:nth-child(1)").map(&:text)
+    self.link_elements(:css => ".job-title").map(&:text)
   end
 
 end
