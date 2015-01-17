@@ -1,3 +1,4 @@
 results.html
 junit*
-chromedirver.log
+chromedriver.log
+features/.cucumber
