@@ -2,7 +2,7 @@ page-object-examples
 ====================
 
 [![Build
-Status](https://secure.travis-ci.org/tancnle/page-object-examples.png)](http://travis-ci.org/tancnle/page-object-examples)
+Status](https://secure.travis-ci.org/tancnle/page-object-examples.svg?branch=master)](http://travis-ci.org/tancnle/page-object-examples)
 [![Code Climate](https://codeclimate.com/github/tancnle/page-object-examples/badges/gpa.svg)](https://codeclimate.com/github/tancnle/page-object-examples)
 
 Examples to write cucumber test using page-object gem
