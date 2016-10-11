@@ -1,5 +1,6 @@
 Feature: Seek search
 
+  @wip
   Scenario: Search Seek for jobs
     Given I am on Seek home page
     When I search with the following criteria:

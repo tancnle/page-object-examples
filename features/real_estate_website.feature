@@ -1,5 +1,6 @@
 Feature: Residential property search
 
+  @wip
   Scenario: Search residential properties
     Given I am on realestate home page
     When I search properties with the following criteria:
