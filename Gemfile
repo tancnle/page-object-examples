@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
 
+ruby File.read('.ruby-version').strip
+
 gem 'rake'
 
 gem 'rspec'
@@ -11,4 +13,3 @@ gem 'page-object'
 group :development, :test do
   gem 'pry'
 end
-
