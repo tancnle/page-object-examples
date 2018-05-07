@@ -5,6 +5,7 @@ before_script:
   - "sh -e /etc/init.d/xvfb start"
 addons:
   chrome: stable
+sudo: required
 notifications:
   recipients:
     - tanle.oz@gmail.com
