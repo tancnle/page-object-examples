@@ -3,6 +3,8 @@ class GoogleSearchPage
 
   page_url 'http://www.google.com.au'
 
+  wait_for_expected_title 'Google'
+
   text_field(:search_field, name: 'q')
   button(:search, name: 'btnK')
 
