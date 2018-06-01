@@ -1,7 +1,7 @@
 module PageObject
   module PersistantBrowser
     def self.browser
-      @_browser ||= begin
+      @browser ||= begin
         client = Selenium::WebDriver::Remote::Http::Default.new
         client.open_timeout = 100
         client.read_timeout = 100
@@ -11,7 +11,7 @@ module PageObject
     end
 
     def self.options
-      args = %w[headless disable-gpu]
+      args = %w[headless disable-gpu screenshot no-sandbox]
 
       Selenium::WebDriver::Chrome::Options.new(args: args)
     end
